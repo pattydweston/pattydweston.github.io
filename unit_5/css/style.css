@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{margin:0; padding:0; box-sizing: border-box;}
+
+body{font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {width:100%;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#logo {color:#FFFFFF; font-family:'Leckerli One', cursive; font-size:3em;
+}
+
+h2 {color:#000000; font-family:'Bree Serif', serif; font-size:1.3em;
+}
+
+h3 {color:#000000; font-family:'Open Sans', sans-serif; 
+font-size: 1em; 
+}
+
+p {
+font-size: .9rem;
+}
+nav{
+  overflow: hidden;
+  background-color: #E8C66A;
+  border: 1px black solid;
+  font-family:'Open Sans', sans-serif;
+}
+
+nav a {
+display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+#hero{
+	position: relative;
+}
+
+#hero_text{
+	width:33.33%;
+	position: absolute;
+	bottom: 10%;
+	right: 10%;
+}
+
+#hero_text_headlines{
+	background: rgba(211,211,211,.5); 
+	padding: 10px;
+
+}
+.button{
+	display: inline-block;
+	background: #a774c2;
+	padding: 10px;
+	text-decoration:none;
+	margin: 10px 10px 0 0;
+	color:black;
+
+}
+img{
+	display:block; 
+	width: 100%;	
+}
+
+hr{ border: .5px #a774c2 solid;
+	margin-top: 40px;
+	width: 50%;
+}
+
+section{
+	background-color: #ffe2b8;
+  border: 1px black solid;
+
+}
+article{
+	background-color: #E89c6c;
+  border: 1px black solid;
+}
+.plant_info{
+	width: 33.33%;
+	padding: 50px 10px;
+	text-align: center;
+	float: left;
+}
+
+.plant_info h2{
+	background:#A9BF99;
+}
+footer{width:100%;
+	background-color: #ff957e;
+	 border: 1px black solid;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+  	font-family:'Open Sans', sans-serif;
+ 	font-size: 1em;
+}

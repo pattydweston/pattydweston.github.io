@@ -59,3 +59,12 @@ img{
 	
 }
 p, ul{font-family: sans-serif;}
+
+footer {width:100%;
+	background-color: #A9BF99;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
